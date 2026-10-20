@@ -24,10 +24,10 @@ export const experiences: Experience[] = [
 ];
 export type Credential = {name:string;issuer:string;date:Localized;kind:'certification'|'course';credentialUrl?:string;id?:string;image?:string};
 export const certifications: Credential[] = [
- {name:'Databricks Certified Machine Learning Engineer Associate',issuer:'Databricks',date:{pt:'Jul 2026 · validade até Jul 2028',en:'Jul 2026 · valid until Jul 2028'},kind:'certification',image:'/certificates/databricks.png'},
- {name:'Associate Data Scientist',issuer:'DataCamp',date:{pt:'22 fev 2026',en:'Feb 22, 2026'},kind:'certification',id:'DSA0013503611937',image:'/certificates/datacamp.png'},
+ {name:'Databricks Certified Machine Learning Engineer Associate',issuer:'Databricks',date:{pt:'Jul 2026 · validade até Jul 2028',en:'Jul 2026 · valid until Jul 2028'},kind:'certification',image:'/certificates/databricks.png',credentialUrl:'https://credentials.databricks.com/4bda9703-86cf-4188-9b15-50bd1f07379d#acc.eFOTL80S'},
+ {name:'Associate Data Scientist',issuer:'DataCamp',date:{pt:'22 fev 2026',en:'Feb 22, 2026'},kind:'certification',id:'DSA0013503611937',image:'/certificates/datacamp.png',credentialUrl:'https://www.datacamp.com/certificate/DSA0013503611937'},
  {name:'IBM Data Science Professional Certificate',issuer:'IBM / Coursera',date:{pt:'19 jan 2025',en:'Jan 19, 2025'},kind:'course',image:'/certificates/ibm.png',credentialUrl:'https://coursera.org/verify/professional-cert/5H16WNAQCIFI'},
- {name:'Machine Learning Specialization',issuer:'DeepLearning.AI / Stanford Online',date:{pt:'04 jan 2026',en:'Jan 4, 2026'},kind:'course',image:'/certificates/machine-learning.png'},
+ {name:'Machine Learning Specialization',issuer:'DeepLearning.AI / Stanford Online',date:{pt:'04 jan 2026',en:'Jan 4, 2026'},kind:'course',image:'/certificates/machine-learning.png',credentialUrl:'https://www.coursera.org/account/accomplishments/specialization/certificate/5FWC9WU2GR97'},
  {name:'Fundamentos de Probabilidade e Estatística para Ciência de Dados',issuer:'Universidade de São Paulo (USP) · ICMC',date:{pt:'11 set 2025',en:'Sep 11, 2025'},kind:'course',image:'/certificates/usp.png'}
 ];
 export const skills = [{name:'Machine Learning',items:['LightGBM','XGBoost','scikit-learn','Optuna','Feature Engineering']},{name:'Data Engineering',items:['Python','SQL','PySpark','Delta Lake','Databricks']},{name:'MLOps & Deployment',items:['MLflow','Docker','Airflow','Model Serving','CI/CD']},{name:'Cloud & Analytics',items:['AWS','PostgreSQL','Power BI','Streamlit']}];
