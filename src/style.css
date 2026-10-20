@@ -132,3 +132,6 @@ footer{background:#070d15;color:#9fb4c4}
 
 /* Green Benefícios: fundo do cartão integrado ao verde da marca */
 .client-logo:first-child{background:#20ed45;border-color:#20ed45}
+
+/* Identificação profissional dos autores das recomendações */
+.recommendation-author .recommendation-role{display:block;color:#d4e5f1;font-size:.83rem;font-weight:500;line-height:1.5;margin-top:3px}
