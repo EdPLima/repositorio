@@ -55,3 +55,45 @@
 .experience-card-mdias .company-icon{width:112px;height:70px;background:#082765;border-radius:10px}
 .experience-card-mdias .company-icon img{width:108px;height:66px;max-width:none;object-fit:contain}
 @media(max-width:700px){.experience-card-mdias{grid-template-columns:1fr}.client-logo{width:calc(50% - 6px);height:72px}}
+
+/* v2.1 — tema escuro e frio: azul-petróleo, grafite e ciano glacial */
+:root{color-scheme:dark;color:#e7f1fa;background:#080f19}
+body{background:#080f19;color:#e7f1fa}
+.site-header{background:#080f19ed;border-bottom-color:#253447}
+.brand-mark,.btn-primary{background:#177caa;color:#f6fcff}
+.brand-dot,.accent,.eyebrow,.section-kicker{color:#67cbe5}
+.btn-primary:hover{background:#2399c6}
+.hero{background:radial-gradient(ellipse at 75% 42%,#15354b 0%,#0b1c2d 48%,#080f19 88%)}
+.hero-glow{border-color:#72d4e51c;box-shadow:0 0 0 80px #72d4e508,0 0 0 160px #72d4e505}
+.hello,.hero-intro{color:#b5c8d7}
+.orbit{border-color:#6cb6d13b}
+.portrait-card{background:linear-gradient(135deg,#17445a,#0b1a2a);border-color:#477e98}
+.floating-label{background:#10283aeF;border-color:#365d72;color:#d9eff8}
+.section-light,.education-section{background:#0b1521}
+.section-cream{background:#101e2c}
+.section h2{color:#f0f7fc}
+.lead,.section-sub,.education-card p,.experience-card p,.project-content>p,.recommendation-card p{color:#b1c1d0}
+.about-facts,.education-card,.experience-card,.project-card,.cert-card,.skill-card,.recommendation-card{background:#142333;border-color:#2b4052;color:#eaf3fb;box-shadow:none}
+.about-facts>div,.recommendation-author,.project-detail-panel{border-color:#304455}
+.about-facts small,.experience-top span,.cert-card p,.recommendation-author span,.original-note,.client-brands>span{color:#9bb1c3}
+.about-facts svg,.education-card>svg,.recommendation-card>svg{color:#70cbe5}
+.timeline{border-color:#385369}
+.experience-card:before{background:#63c6df;border-color:#19364b}
+.company-icon,.cert-icon{background:#203b50;color:#79d6ef}
+.job-role,.text-button,.cert-card a,.original-note a{color:#7ed8ef}
+.tags span,.workload-tag,.metric{background:#203a4d;color:#b7e7f4}
+.project-detail-panel,.project-detail-panel h4{color:#c7e3f2}
+.project-art{background:#0c2739}
+.project-art.credit{background:linear-gradient(135deg,#0b2938,#176078)}
+.client-logo{background:#f7fafc;border-color:#526576}
+.cert-media,.project-screenshots a{background:#1b2c3c;border-color:#345063}
+.pending{color:#9ab0c1}
+.contact-section{background:linear-gradient(115deg,#081522,#14374a)}
+.contact-section p{color:#b2c9d8}
+footer{background:#070d15;color:#9fb4c4}
+.btn-outline{border-color:#66879d;color:#e9f5fa}
+.btn-outline:hover{background:#183349}
+.desktop-nav a{color:#b1c7d6}
+.desktop-nav a:hover{color:#fff}
+.lang-switch,.menu-button{border-color:#456478}
+@media(max-width:700px){.desktop-nav{background:#0b1826}}
