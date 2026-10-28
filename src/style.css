@@ -135,3 +135,28 @@ footer{background:#070d15;color:#9fb4c4}
 
 /* Identificação profissional dos autores das recomendações */
 .recommendation-author .recommendation-role{display:block;color:#d4e5f1;font-size:.83rem;font-weight:500;line-height:1.5;margin-top:3px}
+
+/* v2.3: consistent cards, brand marks and in-page credentials */
+.projects-grid{align-items:start}
+.project-card{min-width:0;display:flex;flex-direction:column}
+.project-content{display:flex;flex-direction:column;flex:1;min-width:0}
+.project-content>.tags{margin-top:12px}
+.project-actions{margin-top:auto;padding-top:22px}
+.project-detail-panel{overflow-wrap:anywhere}
+.company-icon{width:64px;height:64px;flex-shrink:0;background:#fff;border:1px solid #375064;border-radius:12px;padding:8px}
+.company-icon img,.experience-card-mdias .company-icon img{width:100%;height:100%;max-width:100%;object-fit:contain}
+.experience-card-mdias{grid-template-columns:64px minmax(0,1fr)}
+.experience-card-mdias .company-icon{width:64px;height:64px;background:#fff;border-radius:12px}
+.client-logos{align-items:stretch;gap:10px}
+.client-logo,.client-logo:first-child{width:150px;height:74px;padding:10px;background:#fff;border:1px solid #d7e2ea;border-radius:10px}
+.client-logo img,.client-logo:first-child img{width:100%;height:100%;object-fit:contain;transform:none;filter:none}
+.cert-preview-trigger{display:flex;align-items:center;justify-content:center;width:100%;height:100%;padding:0;border:0;background:transparent;cursor:zoom-in}
+.cert-preview-trigger img{width:100%;height:100%;object-fit:contain}
+.cert-modal-backdrop{position:fixed;inset:0;z-index:1000;background:#030b13dd;display:grid;place-items:center;padding:20px}
+.cert-modal{position:relative;width:min(920px,100%);max-height:94vh;overflow:auto;background:#142333;border:1px solid #42617a;border-radius:16px;padding:24px;text-align:center;box-shadow:0 30px 90px #0009}
+.cert-modal>img{display:block;max-width:100%;max-height:65vh;object-fit:contain;margin:0 auto 18px;border-radius:8px;background:#fff}
+.cert-modal h3{font-size:18px;margin:12px 0 6px}
+.cert-modal p{color:#b1c1d0}
+.cert-modal a{display:inline-flex;align-items:center;gap:8px;color:#8de1f4;margin-top:8px}
+.cert-modal-close{position:absolute;right:12px;top:12px;display:grid;place-items:center;width:38px;height:38px;background:#0b1928;color:white;border:1px solid #42617a;border-radius:50%;cursor:pointer}
+@media(max-width:700px){.experience-card-mdias{grid-template-columns:1fr}.client-logo,.client-logo:first-child{width:calc(50% - 5px)}.cert-modal{padding:16px}}
